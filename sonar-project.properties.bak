@@ -1,15 +1,15 @@
-sonar.projectKey=GerardoMT95_iuffi
+sonar.projectKey=GerardoMT95_rebus
 sonar.organization=gerardomt95
 
 # This is the name and version displayed in the SonarCloud UI.
-#sonar.projectName=iuffi
+#sonar.projectName=rebus
 #sonar.projectVersion=1.0
 
 # Path is relative to the sonar-project.properties file. Replace "\" by "/" on Windows.
-sonar.sources=iuffiauth/src/java, iuffimobile/src, iuffiweb/src
+sonar.sources=rebus-anagraficasrv/src, rebus-anagraficawcl/src, rebus-rebuscrus/src, rebus-rebuscruswcl/src
 #sonar.java.binaries=build
 sonar.java.binaries=.
-#sonar.java.libraries=*.jar
+sonar.java.libraries=csi-lib/*.jar
 sonar.exclusions=sonar.exclusions = **/*.sql
 
 # Encoding of the source code. Default is default system encoding
